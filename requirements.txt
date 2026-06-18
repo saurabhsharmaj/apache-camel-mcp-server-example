@@ -1,0 +1,12 @@
+groq
+requests
+streamlit
+python-dotenv
+pydantic
+rich
+fastapi
+uvicorn
+pandas
+openpyxl
+openai
+mcp
