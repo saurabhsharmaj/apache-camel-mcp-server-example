@@ -50,7 +50,7 @@ type nul > reports\__init__.py
 type nul > services\__init__.py
 type nul > ui\__init__.py
 type nul > api\__init__.py
-
+type nul > .env
 '''
 
 
@@ -67,6 +67,12 @@ python -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+
+----
+.env
+GROQ_API_KEY=gsk_xxxx
+MCP_URL=http://localhost:8080/mcp/sse
+---
 
 python test_mcp.py
 streamlit run ui\streamlit_app.py
